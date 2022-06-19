@@ -46,7 +46,7 @@
         return fnClickHandler(content)
       })
 
-      input.addEventListener("keydown",(event)=>{
+      input.addEventListener("keypress",(event)=>{
         if(event.key==="Enter"){
           const content= input.value;
           input.value=""
